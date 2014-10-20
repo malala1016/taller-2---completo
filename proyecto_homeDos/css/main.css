@@ -1,0 +1,388 @@
+/*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+body{
+  background-image: url('strange_bullseyes.png');
+}
+
+html {
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+img,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+.fondo{
+ /* background: gray;*/
+  background-image: url('strange_bullseyes.png');
+  height: 2420px;
+}
+
+.centrar{
+    padding-top: 140px;
+    padding-left: 70px;
+}
+
+.logo{
+    padding-top: 50px;
+    padding-left: 0px;
+}
+
+.etiquetas{
+    padding-top: 80px;
+    color: white;
+}
+
+.buscador{
+    padding-top: 60px;
+}
+
+.iconosRedes{
+    padding-top: 5px;  
+    margin-top: 20px;
+    margin-left: 450px;
+}
+
+.color2{/*color de la barra de arriba negra*/
+  background-color: black;
+  height: 197px;
+  padding-left: 50px;
+}
+
+.color3{
+    background-color: black;
+    padding-top: 30px;
+}
+
+
+/*color de slider GRANDEEEE*/
+
+.colorContenedorImagen{
+  /*background-color: gray;*/
+  background-image: url('strange_bullseyes.png');
+  height: 700px;
+  padding-left: 0px;
+}
+.slider{
+    padding-top: 0px;
+    padding-left: 0px;
+}
+.ocasion{
+    padding-left: 0px;
+    }
+.una{
+    padding-left: 0px;
+}
+.dos{
+    padding-left: 20px;
+}
+
+/*para las letras del footer*/
+h3{
+  font-size: 20px;
+  font-family: arial;
+}
+
+
+.nombreUsuario{
+  font-size: 25px;
+  color: white;
+  margin-top: 90px;
+}
+
+.boton {
+  display: inline-block;
+  float: right;
+  margin-top: -15px;
+  margin-right: 45px;
+  color: #fff;
+  background-color:black; 
+  border-width: 0;
+  text-indent:0px;
+  color:#ffffff;
+  font-family: Montserrat, Arial, serif; 
+  font-weight: 700;
+  font-size: 14px;
+  height:40px;
+  line-height:40px;
+  width:136px;
+  text-decoration:none;
+  text-align:center;
+  cursor: pointer;
+}
+
+.boton:hover {
+  background-color:#E23D4A;
+}
+
+.boton:active {
+  position:relative;
+  top:1px;
+}
+
+
+/*colores para las imagenes de las compras*/
+
+.colorOcasion{
+  background-image: url('strange_bullseyes.png');
+  background-color: gray;
+  width: 600px;
+  height: 700px;  
+}
+.colorCatalogo{
+  background-image: url('strange_bullseyes.png');
+  background-color: gray;
+  width: 473px;
+  height: 700px;
+}
+.colorI{
+  background-image: url('strange_bullseyes.png');
+  background-color: gray;
+  width: 530px;
+  height: 578px;
+}
+.colorD{
+  background-image: url('strange_bullseyes.png');
+  background-color: gray;
+  width: 473px;
+  height: 578px;
+  padding-right: 50px;
+}
+
+.coso{
+  margin-top: 20px;
+  margin-left: 50px;
+}
+
+/*colores para textos de footer*/
+
+.colorA{
+  background-color: black;
+  display: inline-block;
+  padding-left: 77px;
+  width: 1354px;
+  margin-left: -20px;
+  margin-top: 10px;
+
+}
+.colorBB{
+    padding-right: 185px; 
+    color: white;  
+}
+a{
+    color:gray;
+}
+.colorC{
+  background-color: red;   
+}
+
+
+
+
+.cr-container{
+  width: 1330px;
+  height: 660px;
+  position: relative;
+  margin-top: 0;
+  margin-left: -5px;
+  margin-right: 0;
+  box-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+}
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+
+}
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}

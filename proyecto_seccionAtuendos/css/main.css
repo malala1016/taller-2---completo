@@ -1,0 +1,828 @@
+/*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+
+body{
+  background-image: url('strange_bullseyes.png');
+}
+
+
+html {
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+  background-image: url('strange_bullseyes.png');
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+img,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+.arriba{
+  margin-top: -223px;  
+}
+.arribaDos{
+  margin-top: -225px;  
+}
+.arribaTres{
+  margin-top: -225px;  
+}
+.arribaCuatro{
+  margin-top: -228px;  
+}
+.arribaCinco{
+  margin-top: -230px;  
+}
+
+.nombreUsuario{
+  font-size: 25px;
+  color: white;
+  margin-top: 90px;
+}
+.nom{
+  font-size: 25px;
+  color: white;
+  margin-top: 90px;
+}
+
+
+
+.boton {
+  display: inline-block;
+  float: right;
+  margin-top: 10px;
+  margin-right: -57px;
+  color: #fff;
+  background-color:black; 
+  border-width: 0;
+  text-indent:0px;
+  color:#ffffff;
+  font-family: Montserrat, Arial, serif; 
+  font-weight: 700;
+  font-size: 14px;
+  height:40px;
+  line-height:40px;
+  width:136px;
+  text-decoration:none;
+  text-align:center;
+  cursor: pointer;
+}
+
+.boton:hover {
+  background-color:#E23D4A;
+}
+
+.boton:active {
+  position:relative;
+  top:1px;
+}
+
+
+
+
+
+.fondo{
+  background: gray;
+ background-image: url('strange_bullseyes.png');
+ height: 2250px;
+}
+
+.centrar{
+    padding-top: 140px;
+    padding-left: 70px;
+}
+
+.logo{
+    padding-top: 50px;
+    padding-left: 0px;
+}
+
+.acomodarImagenMasComprado{
+    padding-top: 45px;
+    padding-left: 100px;
+}
+
+
+
+.acomodarImagenMasCompradoDos{
+    margin-top: -20px;
+    padding-left: 280px;
+}
+
+.acomodarImagenMasCompradoTres{
+    margin-top: -20px;
+    margin-left: -210px;
+}
+
+.acomodarImagenMasCompradoCuatro{
+    margin-top: -20px;
+    padding-left: 125px;
+}
+
+
+.adaptar{
+position:relative;
+margin-left: 320px;
+}
+
+.imaCoso{
+  margin-left: 320px;
+}
+.imaCosoDos{
+  margin-left: -5px;
+}
+.imaCosoTres{
+  margin-left: -5px;
+}
+.imaCosoCuatro{
+  margin-left: -5px;
+}
+.imaCosoCinco{
+  margin-left: -5px;
+}
+.imaCosoSeis{
+  margin-left: -5px;
+}
+
+
+
+.atuendo{
+margin-left: -30px;
+margin-top: -14px;
+}
+
+.mgh{
+font-size: 20px;
+color: white;
+font-family: arial;
+text-align: center;
+}
+
+
+
+
+.colorCososDos{
+  width: 180px;
+  height: 40px;
+  background-color: silver;
+  background-image: url('strange_bullseyes.png');
+  margin-left: 585px;
+  margin-top: -494px;
+}
+.pppp{
+  font-size: 14px;
+  color: black;
+  margin-left: 5px;
+  margin-top: 10px;
+  position: absolute;
+}
+.tt{
+  padding-left: 70px;
+  padding-top: 10px;
+  position: absolute;
+}
+.yy{
+  padding-left: 120px;
+  padding-top: 10px;
+  position: absolute;
+}
+
+
+
+.colorCososTres{
+  width: 180px;
+  height: 65px;
+  background-color: silver;
+  background-image: url('strange_bullseyes.png');
+  margin-left: 585px;
+  margin-top: -450px;
+}
+.pppp3{
+  font-size: 14px;
+  color: black;
+  margin-left: 5px;
+  margin-top: 10px;
+  position: absolute;
+}
+.pppp4{
+  font-size: 14px;
+  color: black;
+  margin-left: 5px;
+  margin-top: 35px;
+  position: absolute;
+}
+.colorCososCuatro{
+  width: 180px;
+  height: 65px;
+  background-color: silver;
+  background-image: url('strange_bullseyes.png');
+  margin-left: 585px;
+  margin-top: -380px;
+}
+.pppp5{
+  font-size: 14px;
+  color: black;
+  margin-left: 5px;
+  margin-top: 15px;
+  position: absolute;
+}
+.pppp6{
+  font-size: 14px;
+  color: black;
+  margin-left: 5px;
+  margin-top: 35px;
+  position: absolute;
+}
+.colorCososCinco{
+  width: 180px;
+  height: 65px;
+  background-color: silver;
+  background-image: url('strange_bullseyes.png');
+  margin-left: 585px;
+  margin-top: -310px;
+}
+.pppp7{
+  font-size: 14px;
+  color: black;
+  margin-left: 5px;
+  margin-top: 13px;
+  position: absolute;
+}
+.pppp8{
+  font-size: 14px;
+  color: black;
+  margin-left: 5px;
+  margin-top: 33px;
+  position: absolute;
+}
+
+.jj{
+ margin-top: 10px;
+ padding-left: 110px;
+ font-family: arial;
+ color: white;
+ font-size: 18px;
+}
+
+
+
+
+
+.etiquetas{
+    padding-top: 80px;
+    color: white;
+}
+
+.buscador{
+    padding-top: 60px;
+}
+
+.iconosRedes{
+    padding-top: 5px;  
+    margin-top: -5px;
+    margin-left: 450px;
+}
+
+.color2{/*color de la barra de arriba negra*/
+  background-color: black;
+  height: 197px;
+  padding-left: 50px;
+}
+
+.color3{
+    background-color: black;
+    padding-top: 30px;
+}
+
+
+/*color de slider GRANDEEEE*/
+
+.colorContenedorImagen{
+  background-color: gray;
+  background-image: url('strange_bullseyes.png');
+  height: 700px;
+}
+.slider{
+    padding-top: 0px;
+    padding-left: 0px;
+}
+
+
+.dos{
+    padding-right: 10px;
+}
+
+/*para las letras del footer*/
+h3{
+  font-size: 20px;
+  font-family: arial;
+}
+
+
+/*colores para textos de footer*/
+
+.colorA{
+  background-color: black;
+  display: inline-block;
+  padding-left: 80px;
+  margin-top: 920px;   
+  width: 1354px;
+  margin-left: -17px;
+}
+.colorBB{
+    padding-right: 185px; 
+    color: white;  
+}
+a{
+    color:gray;
+}
+
+/*controla el contenedor de la imagen*/
+.colorC{
+  background-color: silver;
+  padding-right: 10px; 
+  height: 400px; 
+  margin-left: 15px;  
+}
+.aDos{
+  color: black;
+}
+
+/*acomodacion de los botones de favoritos*/
+
+.pp{
+  font-size: 14px;
+  color: white;
+  margin-left: 15px;
+  margin-top: 18px;
+  position: absolute;
+}
+
+.ppp{
+  font-size: 14px;
+  color: white;
+  margin-left: 5px;
+  margin-top: 20px;
+  position: absolute;
+}
+
+.c{
+  padding-left: 80px;
+  padding-top: 15px;
+  position: absolute;
+}
+.q{
+  padding-left: 140px;
+  padding-top: 15px;
+  position: absolute;
+}
+
+.t{
+  padding-left: 70px;
+  padding-top: 20px;
+  position: absolute;
+}
+.y{
+  padding-left: 120px;
+  padding-top: 20px;
+  position: absolute;
+}
+
+/*textos de vestido*/
+
+.v{  
+color: white;
+padding-top:  50px;
+}
+.b{  
+color: white;
+padding-top:   10px;
+}
+
+/*---------------------------------------*/
+
+/*contenedor de mas comprado.....*/
+
+.colorCosos{
+  width: 180px;
+  height: 63px;
+  background-color: silver;
+  margin-left: 875px;
+  margin-top: -103px;
+}
+
+.colorMasComprado{
+  background-color: #2b2b2b;
+  padding-top: 100px;
+  height: 400px;
+  width: 780px;
+  margin-left: 285px;
+  margin-top: 795px;
+  
+}
+.acomodar{
+padding-left: 0px;
+padding-top: 0px;
+}
+.colorMas{
+  background-color: silver;
+  padding-top: 100px;
+  height: 230px;
+  width: 300px;
+  margin-left: 380px;
+  margin-top: 45px;
+  position: absolute;
+  
+}
+.acomodar{
+padding-left: 0px;
+padding-top: 0px;
+}
+.mg{
+  text-align: center;
+  font-size: 28px;
+  color: white;
+  margin-top:  10px;
+}
+.k{
+ padding-top: 10px;
+ font-family: arial;
+ color: black;
+}
+.j{
+ margin-top: -50px;
+ padding-left: 190px;
+ font-family: arial;
+ color: black;
+ font-size: 20px;
+}
+.mgg{
+  text-align: center;
+  font-size: 28px;
+  color: white;
+  margin-top: 18px;
+}
+
+
+
+/*contenedor de filtros*/
+.colorFranja{
+  background-color: #2b2b2b;
+  position: absolute;
+  top: 897px;
+  width: 780px;
+  height: 255px;
+  margin-left: 300px;
+}
+
+.colorFranjaDos{
+  background-color: #2b2b2b;
+  position: absolute;
+  top: 1190px;
+  width: 780px;
+  height: 550px;
+  margin-left: 300px;
+}
+
+.colorFranjaTres{
+  background-color: #2b2b2b;
+  position: absolute;
+  top: 1775px;
+  width: 780px;
+  height: 400px;
+  margin-left: 285px;
+}
+
+/*PENDIENTEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE*/
+.barraSeccion{
+  position: absolute;
+  height: 200px;
+  width: 1000px;
+}
+
+.colorBarraSeccion{
+  color: yellow;
+  height: 200px;
+  width: 1000px;
+}
+
+p{
+  text-align: center;
+  font-family: arial;
+  font-size: 2em;
+  color: black;
+}
+/*PENDIENTEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE*/
+
+/*contenedores Imagenes*/
+.colorIma{
+  background-color: #2b2b2b;
+  position: absolute;
+  top: 947px;
+  width: 180px;
+  height: 400px;
+  margin-left: 300px;
+  padding-left: 0px;
+}
+.colorImaD{
+  background-color: #2b2b2b;
+  position: absolute;
+  top: 947px;
+  width: 180px;
+  height: 400px;
+  margin-left: 500px;
+  padding-left: 0px;
+}
+.colorImaT{
+  background-color: #2b2b2b;
+  position: absolute;
+  top: 947px;
+  width: 180px;
+  height: 400px;
+  margin-left: 700px;
+  padding-left: 0px;
+}
+.colorImaC{
+  background-color: #2b2b2b;
+  position: absolute;
+  top: 947px;
+  width: 180px;
+  height: 400px;
+  margin-left: 900px;
+  padding-left: 0px;
+}
+.colorImaa{
+  background-color: #2b2b2b;
+  position: absolute;
+  top: 1377px;
+  width: 180px;
+  height: 400px;
+  margin-left: 300px;
+  padding-left: 0px;
+}
+.colorImaDD{
+  background-color: #2b2b2b;
+  position: absolute;
+  top: 1377px;
+  width: 180px;
+  height: 400px;
+  margin-left: 500px;
+  padding-left: 0px;
+}
+.colorImaTT{
+  background-color: #2b2b2b;
+  position: absolute;
+  top: 1377px;
+  width: 180px;
+  height: 400px;
+  margin-left: 700px;
+  padding-left: 0px;
+}
+.colorImaCC{
+  background-color: #2b2b2b;
+  position: absolute;
+  top: 1377px;
+  width: 180px;
+  height: 400px;
+  margin-left: 900px;
+  padding-left: 0px;
+}
+.colorImaaa{
+  background-color: #2b2b2b;
+  position: absolute;
+  top: 1808px;
+  width: 180px;
+  height: 400px;
+  margin-left: 300px;
+  padding-left: 0px;
+}
+.colorImaDDD{
+  background-color: #2b2b2b;
+  position: absolute;
+  top: 1808px;
+  width: 180px;
+  height: 400px;
+  margin-left: 500px;
+  padding-left: 0px;
+}
+.colorImaTTT{
+  background-color: #2b2b2b;
+  position: absolute;
+  top: 1808px;
+  width: 180px;
+  height: 400px;
+  margin-left: 700px;
+  padding-left: 0px;
+}
+.colorImaW{
+  background-color: #2b2b2b;
+  position: absolute;
+  top: 1808px;
+  width: 180px;
+  height: 400px;
+  margin-left: 900px;
+  padding-left: 0px;
+}
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+
+}
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
